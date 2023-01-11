@@ -2,7 +2,7 @@
 ## Prabuddhi Wariyapperuma (Student ID: 26619055)
 
 ## Solution
-In this assignment, a software system for the Thorvald robot (an agricultural robot) that is autonomously navigating in a simulated vineyard is implemented using Robot Operating System (ROS) platform and OpenCV. Further, the robot is capable of detecting and counting the grape bunches in the vineyard. A topological map is used to navigate the robot to different waypoints. Important operations in OpenCV such as masking, image thresholding, morphological transformations such as erosion and dilation and a clustering algorithm called density-based spatial clustering of applications with noise (DBSCAN) were used for the detection of the grape bunches.     
+In this assignment, a software system for the Thorvald robot (an agricultural robot) that is autonomously navigating in a simulated vineyard is implemented using Robot Operating System (ROS) platform and OpenCV. Further, the robot is capable of detecting and counting the grape bunches in the vineyard. A topological map is used to navigate the robot to different waypoints. Important operations in OpenCV such as image thresholding, masking, morphological transformations such as erosion and dilation and a clustering algorithm called density-based spatial clustering of applications with noise (DBSCAN) are used for the detection of the grape bunches.     
 
 ## How to arrange the ROS setup before running the system
 1. Create a catkin workspace called `catkin_ws` and create an `src` directory by issuing the command `mkdir -p ~/catkin_ws/src`
